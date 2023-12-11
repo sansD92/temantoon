@@ -4,7 +4,7 @@ export default function SecondaryButton({ type = 'button', className = '', disab
             {...props}
             type={type}
             className={
-                `rounded-2xl border border-white py-[13px] text-center w-full ${
+                `rounded-2xl border py-[13px] text-center w-full ${
                     disabled && 'opacity-25'
                 } ` + className
             }
