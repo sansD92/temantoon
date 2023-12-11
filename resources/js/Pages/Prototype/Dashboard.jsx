@@ -24,8 +24,8 @@ export default function Dashboard(){
                         {[1,2,3,4].map((i) => (
                             <FeaturedMovie 
                             key={i}
-                            slug="Punk-in-love"
-                            name={`Punk In Love ${i}`}
+                            slug={`one-piece-${i}`}
+                            name={`One Piece Episode ${i}`}
                             category="Comedy"
                             thumbnail="http://picsum.photos/id/1/300/300"
                             rating={i + 1}
@@ -47,8 +47,8 @@ export default function Dashboard(){
                        {[1,2,3,4,5,6].map((i) => (
                        <MovieCard 
                        key={i}
-                       slug="Spiderman-the-movie"
-                       name={`Spiderman The Movie ${i}`}
+                       slug={`one-piece-the-movie-${i}`}
+                       name={`One Piece The Movie ${i}`}
                        category="Action"
                        thumbnail="https://picsum.photos/id/918/200/300"
                        />
